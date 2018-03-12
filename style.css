@@ -42,6 +42,7 @@ h1, h2 {
   margin: 50px 20px;
   background: white;
   flex-wrap: wrap;
+  width: 100%;
 }
 .section-three-columns>div {
   width: 30%;
@@ -65,6 +66,7 @@ h1, h2 {
 
 footer {
   padding: 300px 20px;
+  width: 100%;
   background: url('images/sand.jpg');
 }
 
