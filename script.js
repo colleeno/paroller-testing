@@ -6,5 +6,14 @@ $(".column-one").paroller({ factor: '-0.1', type: 'foreground', direction: 'hori
 $(".column-three").paroller({ factor: '0.1', type: 'foreground', direction: 'horizontal' });
 
 var waypoint = $('.section-two-block').waypoint(function(direction) {
-                $('.section-one-block').toggleClass('hidden')
-               })
+              if (direction == 'down') {
+                $('.section-one-block').addClass('hidden')
+                console.log('down')
+              }
+              else {
+                $('.section-one-block').removeClass('hidden')
+                console.log('up')
+              }},
+              {
+                offset: '-50px'
+            })
