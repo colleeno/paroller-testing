@@ -18,7 +18,7 @@ h1, h2 {
 .section-one-block {
   background: url('images/sand.jpg');
   background-size: cover;
-  padding: 300px 20px;
+  padding: 200px 20px 400px;
   width: 100%;
   position: fixed;
   clear: both;
