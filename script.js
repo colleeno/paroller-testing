@@ -15,5 +15,5 @@ var waypoint = $('.section-two-block').waypoint(function(direction) {
                 console.log('up')
               }},
               {
-                offset: '-50px'
+                offset: '-80px'
             })
