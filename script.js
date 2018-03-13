@@ -13,7 +13,7 @@ $(window).on('scroll',function(){
 function parallaxScroll(){
     var scrolled = $(window).scrollTop();
     var faster = 0-(scrolled*.15)
-    $('.two-text').css('transform', 'translateY('+faster+'px)');
+    $('.two-text').css({'transform': 'translateY('+faster+'px)', 'transition': 'transform linear'});
     var one = -scrolled * .08
     var three = scrolled * .08
     // $('.two-text').css('transform','translateY('+faster+'px)');
