@@ -1,14 +1,14 @@
 console.log('linked')
 
-// $('.section-two-block').paroller({ factor: '0.3', type: 'background', direction: 'vertical' });
+$('.two-text').paroller({ factor: '0.3', type: 'foreground', direction: 'vertical' });
 
-// $(".column-one").paroller({ factor: '-0.1', type: 'foreground', direction: 'vertical' });
-// $(".column-three").paroller({ factor: '0.1', type: 'foreground', direction: 'vertical' });
+// $('.column-one').paroller({ factor: '-0.1', type: 'foreground', direction: 'vertical' });
+$('.column-two').paroller({ factor: '0.03', type: 'foreground', direction: 'vertical' });
 
 
-$(window).on('scroll',function(){
-    parallaxScroll();
-});
+// $(window).on('scroll',function(){
+//     parallaxScroll();
+// });
 
 function parallaxScroll(){
     var scrolled = $(window).scrollTop();
